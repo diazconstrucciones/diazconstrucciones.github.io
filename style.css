@@ -201,3 +201,32 @@ footer {
     padding: 25px 0;
     text-align: center;
 }
+.trabajo {
+    margin-bottom: 50px;
+}
+
+.trabajo h3 {
+    color: #f06595;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.mosaico {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.mosaico img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.mosaico img:hover {
+    transform: scale(1.05);
+}
+
